@@ -16,29 +16,3 @@ To locate a pixel on the image, suppose that we have decomposed x as x = i * 28 
 For example, pixel31 indicates the pixel that is in the fourth column from the left, and the second row from the top, as in the ascii-diagram below.
 
 
-Labels
-
-
-Each training and test example is assigned to one of the following labels:
-
-0 T-shirt/top
-1 Trouser
-2 Pullover
-3 Dress
-4 Coat
-5 Sandal
-6 Shirt
-7 Sneaker
-8 Bag
-9 Ankle boot
-
-
-TL;DR
-
-
-
-Each row is a separate image
-Column 1 is the class label.
-Remaining columns are pixel numbers (784 total).
-Each value is the darkness of the pixel (1 to 255)
-
